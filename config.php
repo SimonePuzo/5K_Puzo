@@ -7,13 +7,12 @@ if (preg_match("(config.php)",$PHP_SELF)) {
     die();
 }
 
-require_once("conf/conf_error.php");
 
 
 $dbhost = "localhost";
-$dbuname = "itebzinformatica";
-$dbpass = "cavoli miei";
-$dbname = "my_itebzinformatica";
+$dbuname = "simonepuzo";
+$dbpass = "";
+$dbname = "my_simonepuzo";
 $prefix = "scrlu_";
 $user_prefix = "";
 $dbtype = "MySQLI";
